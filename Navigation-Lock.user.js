@@ -5,6 +5,7 @@
 // @description  Prevents backward and forward navigation on the QuickConnect domain to avoid unintended navigations.
 // @match        *.quickconnect.to/*
 // @grant        none
+// @license      MIT
 // @icon         https://raw.githubusercontent.com/DennisGHUA/Navigation-Lock/refs/heads/main/Icon.png
 // @downloadURL  https://github.com/DennisGHUA/Navigation-Lock/raw/main/Navigation-Lock.user.js
 // @updateURL    https://github.com/DennisGHUA/Navigation-Lock/raw/main/Navigation-Lock.user.js
