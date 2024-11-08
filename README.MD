@@ -13,8 +13,3 @@ To install the Navigation Lock for QuickConnect, follow these steps:
     - **Safari**: [Tampermonkey](https://apps.apple.com/us/app/tampermonkey/id1482490089)
 
 2. **Install the User Script**: [Click here to install the user script](https://update.greasyfork.org/scripts/515591/Navigation%20Lock%20for%20QuickConnect.user.js) once you have Tampermonkey installed.
-
-## Features
-
-- **Back and Forward Navigation Blocking**: Prevents unintended navigation using the back and forward buttons.
-- **Keyboard Shortcut Blocking**: Disables common navigation shortcuts, including Alt + arrow keys and Backspace.
