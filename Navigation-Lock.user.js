@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Navigation Lock for QuickConnect
 // @namespace    https://github.com/DennisGHUA/Navigation-Lock
-// @version      1.0
+// @version      1.1
 // @description  Prevents backward and forward navigation on the QuickConnect domain to avoid unintended navigations.
 // @match        *.quickconnect.to/*
 // @grant        none
@@ -18,15 +18,6 @@
     history.pushState(null, document.title, window.location.href);
     window.addEventListener('popstate', function(event) {
         history.pushState(null, document.title, window.location.href);
-    });
-
-    // Block common navigation keyboard shortcuts
-    window.addEventListener('keydown', (event) => {
-        const forbiddenKeys = ['Backspace', 'ArrowLeft', 'ArrowRight'];
-        if (event.altKey || forbiddenKeys.includes(event.key)) {
-            event.preventDefault();
-            event.stopPropagation();
-        }
     });
 
     // Prevent any unload or navigation attempts
