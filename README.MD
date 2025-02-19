@@ -11,4 +11,4 @@ To install the Navigation Lock for QuickConnect, follow these steps:
     - **Firefox**: [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
     - **Chromium-based browsers (Chrome, Edge, Vivaldi)**: [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
 
-2. **Install the User Script**: [Click here to install the user script](https://github.com/DennisGHUA/Navigation-Lock/blob/main/Navigation-Lock.user.js) once you have Tampermonkey installed.
+2. **Install the User Script**: [Click here to install the user script](https://github.com/DennisGHUA/Navigation-Lock/raw/refs/heads/main/Navigation-Lock.user.js) once you have Tampermonkey installed.
