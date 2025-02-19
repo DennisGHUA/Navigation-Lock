@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Navigation Lock for QuickConnect
 // @namespace    https://github.com/DennisGHUA/Navigation-Lock
-// @version      1.1
+// @version      1.2
 // @description  Prevents backward and forward navigation on the QuickConnect domain to avoid unintended navigations.
-// @match        *.quickconnect.to/*
+// @match        *://*.quickconnect.to/*
 // @grant        none
 // @license      MIT
 // @icon         https://raw.githubusercontent.com/DennisGHUA/Navigation-Lock/refs/heads/main/Icon.png
